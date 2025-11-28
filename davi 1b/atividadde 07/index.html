@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+<form action="">
+<fieldset>
+<legend>fale conosco</legend>
+<label for="Nome">Nome</label>
+<input id="Nome" nome="nome" type="text">
+<label for="email">E-mail</label>
+<input id="email" nome="email" type="email">
+<label for="assunto">Assunto</label>
+<select name="assunto" id="assunto">
+<option value="feadbeck">retorno para o projeto</option>
+<option value="Sugest">sugestao para projrto</option>
+<option value="New-project">novo projeto</option>
+<option value="mensagem">mensagem</option>
+</select>
+<label for="mensagem">mensagem</label>
+</fieldset>
+<button type="submit">enviar</button>
+</form>
+    </div>
+    <footer>desenvolvido por davizin do pizeiro</footer>
+<script>
+function validaForm() {
+const email = Document.getElementById('email')
+let emailText = email.value.trim ();
+if(emailText.includes ("@"))
+console.log("achei @!")
+valido = true }
+
+else {
+valido = false;
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
