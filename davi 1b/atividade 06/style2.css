@@ -1,4 +1,13 @@
-body{background-image: url("/atividade\ 06/davi.jpg");
-color: aliceblue;
-}
+body{background-color: aqua;
+    background-repeat: no-repeat;
+mask-repeat: no-repeat;
 
+section{width: 3000px;}
+}
+#text{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+img{
+background-repeat: no-repeat;}
